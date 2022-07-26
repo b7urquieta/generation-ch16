@@ -1,0 +1,45 @@
+body {
+    background-color: lightblue;
+}
+
+*{
+    font-size: 1.5rem;
+
+}
+
+header{
+    background-color: aquamarine;
+    width: auto;
+    height: 200px;
+}
+
+main{
+    display: flex;
+    align-items: left;
+    justify-content: initial;
+    background-attachment: cadetblue;
+    width: auto;
+    height: 600px;
+}
+
+aside{
+    display: run-in ;
+    background-color: aliceblue;
+    width: auto;
+    height: 100px;
+}
+
+
+footer {
+    background-color: rgb(22, 177, 22);
+    width: auto;
+    height: 150px;
+
+}
+
+.cuadro{
+    display: inline-block ;
+    width: 200px ;
+    height: 200px;
+    background-color: darkgoldenrod ;
+}

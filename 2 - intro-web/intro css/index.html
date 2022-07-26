@@ -1,28 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<he>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style type = "text/css" media = "all">
+        /* prioridad cero */
         *{
             font-size: 1rem;
         }
-</style>
+        p.aviso{color: blueviolet;
+        }
+        div.nuevo{
+            color: #00ccff;
+        }
+    </style>
+    <style>
+        *.univ{
+            color: #ee1e1ebe;
+        }
+        .univ1{
+            color: #fb98ffaa;
+        }
+    </style>
+    <!-- SELECTOR ID; E#e, Almohadilla (#) -->
+    <style>
+        p #alm1{
+            color: #0897bb;
+        }
+    </style>
 
-   <!--  <link rel="stylesheet" href="css/style.css"> -->
+Esto s un comentario
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/selector.css">
+    <!-- Selector ID, E#e, almohadilla # -->
 
+    <style>
+        p#alm1{
+          color: aquamarine;
+        }
+      </style>
+      <style>
+        #alm2{
+          color: deeppink;
+        }
+      </style>
+      <style>
+        *#alm3{
+          color: forestgreen;
+        }
+      </style>
+      
+      
 </head>
+
 <body>
+    <p> Esto es un párrafo 1</p>
+    <div>
+    <ul>
+      <li>
+        esto es una lista
+        <p>esto es otro párrafo interno </p>
+      </li>
+    </ul>
+    <p>Esto es otro párrafo 3</p>
+    
+    </div>
 
-<h1>esto es una prueba</h1>
+    <p id="alm1">
+        esto es de alm1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio doloremque quasi numquam dolorum laudantium beatae et libero dolore. Ducimus, non. Harum quos cumque porro cupiditate accusamus odit a magni ad!
+      </p>
 
-<div>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Fuga labore, hic consectetur quaerat maxime vero voluptates <br> commodi nisi eveniet autem quo harum iste <br> blanditiis vitae facilis, distinctio dolore explicabo repellat!
-</div>
-<p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, incidunt? Laborum facilis aut quasi? Error, facilis! Molestiae quis repudiandae magni soluta perferendis nemo ad distinctio, accusantium quibusdam, debitis recusandae odit!
-</p>
+    <h1>Esto es una prueba </h1>
+
+    <div class="univ">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, in blanditiis iste autem modi odit quasi voluptates eum id quisquam iusto aliquid voluptatibus quo, ea doloribus dolore dolor nostrum ipsam.
+        
+        </div>
+        
+          <p class="univ1">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident repellendus illo, itaque ipsum deleniti saepe
+            voluptatem corrupti corporis dolores quaerat ab sunt. Iure amet earum dolores harum vitae molestias commodi.
+          </p>
+
+    <!-- primer selector de clase-->
+    <div class="nuevo">
+        Lorem ipsum dolor sit amet consectetur. <br>
+        adipisicingelit. Quo dicta animi dolorem vitae <br>
+        cumque ab quos laborum in, suscipit ea, adipisci <br>
+        eligendi nulla deserunt dolores tempore repellendu 
+        ut quam nihil. <br>
+    </div>
+
+    <!-- selector de clase E.e-->
+    <p class="aviso">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+
+    <div class="univ1">
+        Lorem ipsum dolor sit amet consectetur. <br>
+        adipisicingelit. Quo dicta animi dolorem vitae <br>
+        cumque ab quos laborum in, suscipit ea, adipisci.
+    </div>
+    <p class="univ">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+
 </body>
 </html>
