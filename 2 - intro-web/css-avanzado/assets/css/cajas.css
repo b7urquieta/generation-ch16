@@ -1,7 +1,17 @@
+html{
+    font-size: 1rem;
+}
+
+
+.cuadro-padre{
+    font-size: 1em;
+}
 
 .cuadro {
-    height: 150px;
-    width: 150px;
+    /* 1rem = 16px -> Dependen de la raiz = html*/
+    /* 1em = 16px -> Tomar la unidad del padre*/
+    height: 10rem;
+    width: 10rem;
 
     /* margin-top: 10px;
     margin-right: 20px;
@@ -15,6 +25,18 @@
     border: 10px solid yellow;
 
     border-radius: 10px 20px 30px 40px;
+
+/* 
+    height: 150px;
+    width: 150px;
+
+    padding: 50px 40px 30px 20px;
+
+    margin: 20px 40px;
+
+    border: 10px solid yellow;
+
+    border-radius: 10px 20px 30px 40px; */
 }
 
 .el-1{
