@@ -1,4 +1,4 @@
-` use striet`
+`use strict`
 
 function miSuma(a, b){
     let resultado = (a + b);
