@@ -53,7 +53,7 @@ public class EjemploVariables {
         System.out.println("short valor maximo: " + Short.MAX_VALUE);
         System.out.println("short valor minimo: " + Short.MIN_VALUE);
 
-        var miVar = '2';
+        var miVar = '5';
         System.out.println("miVar = " + miVar);
 
 
