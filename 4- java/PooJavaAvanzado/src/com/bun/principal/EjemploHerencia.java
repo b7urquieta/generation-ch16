@@ -25,9 +25,27 @@ public class EjemploHerencia {
         Object miObj = new BasePadre();
 
 
-        System.out.println("Atributo de clase Base Padre -> "+objB.getB());
+        System.out.println("Atributo de clase Base Padre -> " + objB.getB());
 
-        System.out.println("Atributo de Clase Hijo -> "+ho.getA());
+        System.out.println("Atributo de Clase Hijo -> " + ho.getA());
+
+        int x = 0;
+        do {
+            System.out.println(x);
+            x++;
+        } while (x < 10);
+
+
+        int y = 0;
+        while (y < 10) {
+            System.out.println(y);
+            y++;
+        }
+
+        public static void main(String[] args) {
+            int x=0;
+            System.out.println(x);
+            x++;
 
     }
 }
